@@ -20,7 +20,7 @@ This assignment reinforces Sass organization, reusable styles, responsive design
 [ADD YOUR WEB4 URL HERE]
 
 **GitHub Repository:**  
-[ADD YOUR GITHUB LINK HERE]
+https://github.com/rwguenth-code/homework5
 
 ## Files Included
 
