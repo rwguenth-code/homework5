@@ -1,0 +1,34 @@
+.why {
+    background: #e8e3d9;
+    padding: 6rem 0;
+}
+
+.why .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.why img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.why .why__content h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.why .why__content ul {
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+
+@media (max-width: 900px) {
+    .why {
+        grid-template-columns: 1fr;
+    }
+}

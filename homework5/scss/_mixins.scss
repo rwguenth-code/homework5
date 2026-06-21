@@ -1,0 +1,19 @@
+@mixin container {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin responsive-text($size) {
+    font-size: $size;
+
+    @media (max-width: $mobile) {
+        font-size: $size * 0.8;
+    }
+}

@@ -1,0 +1,64 @@
+.hero {
+    background: url("../images/mountain1.jpg") center/cover no-repeat;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 1rem;
+    color: white;
+    text-align: center;
+    position: relative;
+
+    .hero-tag {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+        opacity: 0.9;
+    }
+
+    h2 {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-desc {
+        max-width: 650px;
+        margin: 0 auto 2.5rem;
+        font-size: 1.25rem;
+        opacity: 0.95;
+    }
+
+    .hero__buttons {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    .hero-stats {
+        position: absolute;
+        bottom: 10rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 4rem;
+        background: rgba(0, 0, 0, 0.55);
+        padding: 1.8rem 3.5rem;
+        border-radius: 14px;
+        backdrop-filter: blur(6px);
+        color: white;
+
+        .stat {
+            text-align: center;
+
+            h3 {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 1rem;
+                opacity: 0.9;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: $dark;
+    background: $light;
+    line-height: 1.7;
+}
+
+.container {
+    @include container;
+}
+
+.btn {
+    padding: 1rem 2.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.15rem;
+
+    &.primary {
+        background: $primary;
+        color: white;
+    }
+
+    &.secondary {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+
+    &.tertiary {
+        background: $gold;
+        color: black;
+    }
+}

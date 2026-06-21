@@ -1,0 +1,38 @@
+.header {
+    background: $forest;
+    padding: 1.5rem 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    .logo {
+        color: white;
+    }
+
+    .header__content {
+        @include flex-center;
+        justify-content: space-between;
+    }
+
+    .nav__links {
+        display: flex;
+        gap: 2.5rem;
+
+        a {
+            color: $gold;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+    }
+
+    .nav-btn {
+        background: $primary;
+        padding: 0.7rem 1.4rem;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+    }
+}
